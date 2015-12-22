@@ -24,6 +24,9 @@ lapply(hdsrc, src2win)
 zpf = list.files(pattern = "*.zip")
 file.copy(zpf, winPath)
 
+# check warnings if all zip files were created. If not, simply manually add zip files from
+# CRAN where possible.
+
 # delete zip files
 unlink(zpf)
 
@@ -32,5 +35,8 @@ tools::write_PACKAGES(srcPath, type = 'source')
 tools::write_PACKAGES(winPath)
 
 # when installing for windows: download files in separate HIDAP libs directory (no trailing /)
+options(repos = c(hidap = "https://c5sire.github.io/hd", getOption("repos")))
+
+
 
 # when starting hidap: use local hidap lib!
