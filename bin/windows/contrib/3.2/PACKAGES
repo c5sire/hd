@@ -176,7 +176,7 @@ Suggests: stringr
 License: GPL-3
 
 Package: fbmaterials
-Version: 0.0.2
+Version: 0.0.3
 Depends: R (>= 3.2.2)
 Suggests: testthat, knitr, rmarkdown, fbglobal, readxl, stringr, shiny,
          shinydashboard, rhandsontable, shinyFiles, shinyBS, fbcrops, shinyjs

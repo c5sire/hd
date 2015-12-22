@@ -220,12 +220,12 @@ MD5sum: 71b5cb47e3ca269d627ecba02fd35d77
 NeedsCompilation: no
 
 Package: fbmaterials
-Version: 0.0.2
+Version: 0.0.3
 Depends: R (>= 3.2.2)
 Suggests: testthat, knitr, rmarkdown, fbglobal, readxl, stringr, shiny,
          shinydashboard, rhandsontable, shinyFiles, shinyBS, fbcrops, shinyjs
 License: GPL-3
-MD5sum: ecef18dcbfd79cea89085c87acc1db44
+MD5sum: b5f60291d81b24f836ec06aa7dabaa28
 NeedsCompilation: no
 
 Package: fbmodule
