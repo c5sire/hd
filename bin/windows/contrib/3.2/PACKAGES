@@ -183,7 +183,7 @@ Suggests: testthat, knitr, rmarkdown, fbglobal, readxl, stringr, shiny,
 License: GPL-3
 
 Package: fbmodule
-Version: 0.0.1
+Version: 0.0.2
 Depends: R (>= 3.2.2)
 Suggests: testthat, fbglobal, readxl, stringr, shiny, shinydashboard, rhandsontable,
          shinyBS, shinyFiles, fbcrops

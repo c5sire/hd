@@ -229,12 +229,12 @@ MD5sum: b5f60291d81b24f836ec06aa7dabaa28
 NeedsCompilation: no
 
 Package: fbmodule
-Version: 0.0.1
+Version: 0.0.2
 Depends: R (>= 3.2.2)
 Suggests: testthat, fbglobal, readxl, stringr, shiny, shinydashboard, rhandsontable,
          shinyBS, shinyFiles, fbcrops
 License: GPL-3
-MD5sum: 2e174ac058ef9c3d9fe9dabca11a1ab2
+MD5sum: 07643a5bacfc05d60f20354d2309dbbe
 NeedsCompilation: no
 
 Package: fbprogram
