@@ -171,7 +171,8 @@ Suggests: shiny, shinydashboard, shinyjs, shinyFiles, rhandsontable, shinyBS,
 License: GPL-3
 
 Package: fbglobal
-Version: 0.1.0
+Version: 0.2.0
+Suggests: stringr
 License: GPL-3
 
 Package: fbmaterials

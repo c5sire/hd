@@ -213,9 +213,10 @@ MD5sum: 2e3ec04fd9ce7a9f7869f159194583d4
 NeedsCompilation: no
 
 Package: fbglobal
-Version: 0.1.0
+Version: 0.2.0
+Suggests: stringr
 License: GPL-3
-MD5sum: dceb70fdd54181cd2110620976dddcac
+MD5sum: 71b5cb47e3ca269d627ecba02fd35d77
 NeedsCompilation: no
 
 Package: fbmaterials
