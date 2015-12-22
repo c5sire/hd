@@ -162,6 +162,14 @@ Depends: R (>= 3.2.2)
 Suggests: testthat, knitr, rmarkdown, fbglobal, shiny, shinydashboard, rhandsontable
 License: GPL-3
 
+Package: fbdesign
+Version: 0.0.1
+Depends: R (>= 3.2.2)
+Suggests: shiny, shinydashboard, shinyjs, shinyFiles, rhandsontable, shinyBS,
+         agricolae, stringr, fbglobal, fbcrops, fbmaterials, fbmodule, fbprogram,
+         fbprstages, fbsites
+License: GPL-3
+
 Package: fbglobal
 Version: 0.1.0
 License: GPL-3
@@ -256,7 +264,7 @@ Suggests: testthat, plyr
 License: GPL-2
 
 Package: hidap
-Version: 0.0.6
+Version: 0.0.7
 Depends: R (>= 3.2.2)
 Suggests: agricolae, st4gi, pepa, testthat, knitr, rmarkdown, fbglobal, cropont,
          fbmaterials, fbcrops, fbprogram, fbprstages, fbsites, fbmodule, fbqtl,

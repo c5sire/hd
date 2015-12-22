@@ -202,6 +202,16 @@ License: GPL-3
 MD5sum: 61db755f42d3dab1ec9d6483a545e5dc
 NeedsCompilation: no
 
+Package: fbdesign
+Version: 0.0.1
+Depends: R (>= 3.2.2)
+Suggests: shiny, shinydashboard, shinyjs, shinyFiles, rhandsontable, shinyBS,
+         agricolae, stringr, fbglobal, fbcrops, fbmaterials, fbmodule, fbprogram,
+         fbprstages, fbsites
+License: GPL-3
+MD5sum: 2e3ec04fd9ce7a9f7869f159194583d4
+NeedsCompilation: no
+
 Package: fbglobal
 Version: 0.1.0
 License: GPL-3
@@ -323,7 +333,7 @@ MD5sum: be491aa5220f0059a0e1cb04679b6563
 NeedsCompilation: no
 
 Package: hidap
-Version: 0.0.6
+Version: 0.0.7
 Depends: R (>= 3.2.2)
 Suggests: agricolae, st4gi, pepa, testthat, knitr, rmarkdown, fbglobal, cropont,
          fbmaterials, fbcrops, fbprogram, fbprstages, fbsites, fbmodule, fbqtl,
@@ -331,7 +341,7 @@ Suggests: agricolae, st4gi, pepa, testthat, knitr, rmarkdown, fbglobal, cropont,
          shinyFiles, shinyBS, fbcrops, shinyjs, qtlcharts, qtl, leaflet, pander,
          fbdesign
 License: GPL-3
-MD5sum: bc19476d4c1f8df9e37196182c6f7f63
+MD5sum: f64cbd2b2ebfacf0f2d4198449ba6102
 NeedsCompilation: no
 
 Package: highr
