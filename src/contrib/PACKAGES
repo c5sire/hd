@@ -334,15 +334,15 @@ MD5sum: be491aa5220f0059a0e1cb04679b6563
 NeedsCompilation: no
 
 Package: hidap
-Version: 0.0.7
+Version: 0.0.9
 Depends: R (>= 3.2.2)
-Suggests: agricolae, st4gi, pepa, testthat, knitr, rmarkdown, fbglobal, cropont,
-         fbmaterials, fbcrops, fbprogram, fbprstages, fbsites, fbmodule, fbqtl,
-         fbreports, readxl, stringr, shiny, shinydashboard, rhandsontable,
+Suggests: agricolae, st4gi, pepa, testthat, knitr, rmarkdown, fbglobal, d3heatmap,
+         cropont, fbmaterials, fbcrops, fbprogram, fbprstages, fbsites, fbmodule,
+         fbqtl, fbreports, readxl, stringr, shiny, shinydashboard, rhandsontable,
          shinyFiles, shinyBS, fbcrops, shinyjs, qtlcharts, qtl, leaflet, pander,
-         fbdesign
+         fbdesign, plotly
 License: GPL-3
-MD5sum: f64cbd2b2ebfacf0f2d4198449ba6102
+MD5sum: 6a7555389f954e5712909d0ce5ca28e8
 NeedsCompilation: no
 
 Package: highr

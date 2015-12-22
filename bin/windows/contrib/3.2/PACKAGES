@@ -265,13 +265,13 @@ Suggests: testthat, plyr
 License: GPL-2
 
 Package: hidap
-Version: 0.0.7
+Version: 0.0.9
 Depends: R (>= 3.2.2)
-Suggests: agricolae, st4gi, pepa, testthat, knitr, rmarkdown, fbglobal, cropont,
-         fbmaterials, fbcrops, fbprogram, fbprstages, fbsites, fbmodule, fbqtl,
-         fbreports, readxl, stringr, shiny, shinydashboard, rhandsontable,
+Suggests: agricolae, st4gi, pepa, testthat, knitr, rmarkdown, fbglobal, d3heatmap,
+         cropont, fbmaterials, fbcrops, fbprogram, fbprstages, fbsites, fbmodule,
+         fbqtl, fbreports, readxl, stringr, shiny, shinydashboard, rhandsontable,
          shinyFiles, shinyBS, fbcrops, shinyjs, qtlcharts, qtl, leaflet, pander,
-         fbdesign
+         fbdesign, plotly
 License: GPL-3
 
 Package: highr
